@@ -13,8 +13,9 @@ https://github.com/user-attachments/assets/f7d1623d-0670-46be-a138-fa28149fc9e6
 - A rom named `rom_BPRE.gba` will be generated in the folder `build`. (The code is inserterd in `rom_BPRE.gba`. `BPRE.gba` remains unmodified.)
 
 ## Credits
-Zake, the person who ported this code
-The template used here was made by Acimut. The source code was made by CompuMaxx.
+- Zake, the person who ported this code.
+- The template used here was made by Acimut.
+-  The source code was made by CompuMaxx.
 
 - Compilan ejecutando make con su terminal, y una rom con la inyección aparecerá en una carpeta llamada `build`.
 
