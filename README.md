@@ -1,6 +1,10 @@
 # BW Summary Screen
 BW style summary screen for Fire Red.
 
+
+https://github.com/user-attachments/assets/f7d1623d-0670-46be-a138-fa28149fc9e6
+
+
 ## How to Compile
 - devkitARM, armips and the [pret tools](https://www.mediafire.com/file/bdq6eept3e00bb8/pret-tools.rar/file?dkey=87faiifqqvi&r=909) are required and must be set in `PATH`.
 - Open the file `config.mk`, there change `OFFSET` to the offset you want to insert this, it needs atleast 0xBC00 bytes.
