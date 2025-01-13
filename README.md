@@ -1,20 +1,16 @@
-# Pokemon GBA hack template
- Plantilla para realizar hacks en C en juegos de pokémon GBA.
+# BW Summary Screen
+BW style summary screen for Fire Red.
 
+## How to Compile
+- devkitARM, armips and the [pret tools](https://www.mediafire.com/file/bdq6eept3e00bb8/pret-tools.rar/file?dkey=87faiifqqvi&r=909) are required and must be set in `PATH`.
+- Open the file `config.mk`, there change `OFFSET` to the offset you want to insert this, it needs atleast 0xBC00 bytes.
+- Place a Fire Red rom in the repository folder and rename it to `BPRE.gba`.
+- Open the terminal in the repository folder and run `make`.
+- A rom named `rom_BPRE.gba` will be generated in the folder `build`. (The code is inserterd in `rom_BPRE.gba`. `BPRE.gba` remains unmodified.)
 
-***Notas:***
-
-- DevkitARM y ARMIPS son necesarios.
-
-- Para compilar es necesario tener preproc.exe y gbagfx.exe dentro alguna ruta de la variable PATH
-
-- Abrir el archivo config.mk, buscar y cambiar fa0000 de la siguiente línea por un offset alineado con suficiente espacio libre:
-        `INSERT_INTO ?= 0x08fa0000`
-- En el archivo config.mk, buscar la siguiente línea
-        `ROM_CODE ?= BPRE`
-    - mantener  BPRE para compilar usando Fire Red
-    - cambiar a BPRS para compilar usando Rojo Fuego en español
-    - cambiar a BPEE para compilar usando Emerald
+## Credits
+Zake, the person who ported this code
+The template used here was made by Acimut. The source code was made by CompuMaxx.
 
 - Compilan ejecutando make con su terminal, y una rom con la inyección aparecerá en una carpeta llamada `build`.
 
