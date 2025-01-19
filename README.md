@@ -1,3 +1,4 @@
+To support this types of codes and coders join our discord https://discord.com/invite/axNX3rhR9K
 # BW Summary Screen
 BW style summary screen for Fire Red.
 
@@ -17,9 +18,7 @@ https://github.com/user-attachments/assets/f7d1623d-0670-46be-a138-fa28149fc9e6
 - The template used here was made by Acimut.
 -  The source code was made by CompuMaxx.
 
-- Compilan ejecutando make con su terminal, y una rom con la inyección aparecerá en una carpeta llamada `build`.
+- You compile by running make with your terminal, and an injected rom will appear in a folder called `build`.
 
-- Pueden usar en un script `callasm` seguido por el offset+1 donde insertaron el código, para llamar la rutina.
-
-- Archivos dentro de la carpeta `include` fueron tomados de [**pokefirered**](https://github.com/pret/pokefirered).
+- Files inside the `include` folder were taken from [**pokefirered**](https://github.com/pret/pokefirered).
 
